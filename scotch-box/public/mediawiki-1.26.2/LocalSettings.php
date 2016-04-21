@@ -151,10 +151,46 @@ wfLoadExtension( 'SpamBlacklist' );
 wfLoadExtension( 'SyntaxHighlight_GeSHi' );
 wfLoadExtension( 'TitleBlacklist' );
 wfLoadExtension( 'WikiEditor' );
-
+require_once "$IP/extensions/AccessControl/AccessControl.php";
+require_once "$IP/extensions/Lockdown/Lockdown.php";
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
+
+/**
+ * --- LockDown config ---
+ * Protect namespace testnamespace
+ */
+
+#define custom namespaces
+define('TEST_NAMESPACE', 100);
+$wgExtraNamespaces[TEST_NAMESPACE] = 'Testnamespace';
+
+#restrict "read" permission to logged in users
+$wgNamespacePermissionLockdown[TEST_NAMESPACE]['read'] = array('user');
+
+#prevent inclusion of pages from that namespace
+$wgNonincludableNamespaces[] = TEST_NAMESPACE;
+
+/**
+ * --- SMW SPARQL configuration ---
+ * Use Fuseki store
+ */
+
+
+/**
+ * Start the DB:
+ * fuseki-server.bat --update --port=3030 --loc='/var/www/public/db' /db
+ */
+$smwgDefaultStore = 'SMWSparqlStore';
+$smwgSparqlDatabaseConnector = 'fuseki';
+$smwgSparqlQueryEndpoint = 'http://localhost:3030/db/query';
+$smwgSparqlUpdateEndpoint = 'http://localhost:3030/db/update';
+$smwgSparqlDataEndpoint = '';
+
+
 enableSemantics( '192.168.33.10/mediawiki-1.26.2/' );
+
+
 
