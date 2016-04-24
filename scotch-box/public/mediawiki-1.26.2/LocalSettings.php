@@ -153,6 +153,7 @@ wfLoadExtension( 'TitleBlacklist' );
 wfLoadExtension( 'WikiEditor' );
 require_once "$IP/extensions/AccessControl/AccessControl.php";
 require_once "$IP/extensions/Lockdown/Lockdown.php";
+require_once "$IP/extensions/LinkedWiki/LinkedWiki.php";
 
 # End of automatically generated settings.
 # Add more configuration options below.
@@ -178,17 +179,18 @@ $wgNonincludableNamespaces[] = TEST_NAMESPACE;
  * Use Fuseki store
  */
 
+// Start the DB: fuseki-server.bat --update --port=3030 --loc='/var/www/public/db' /db
 
-/**
- * Start the DB:
- * fuseki-server.bat --update --port=3030 --loc='/var/www/public/db' /db
- */
 $smwgDefaultStore = 'SMWSparqlStore';
 $smwgSparqlDatabaseConnector = 'fuseki';
 $smwgSparqlQueryEndpoint = 'http://localhost:3030/db/query';
 $smwgSparqlUpdateEndpoint = 'http://localhost:3030/db/update';
 $smwgSparqlDataEndpoint = '';
 
+/**
+ * --- LinkedWiki configuration ---
+ */
+$wgLinkedWikiConfigDefaultEndpoint = "http://localhost:3030/db/query";
 
 enableSemantics( '192.168.33.10/mediawiki-1.26.2/' );
 
