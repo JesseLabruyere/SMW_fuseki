@@ -163,36 +163,61 @@ require_once "$IP/extensions/LinkedWiki/LinkedWiki.php";
  * --- LockDown config ---
  * Protect namespace testnamespace
  */
-
-#define custom namespaces
+# define custom namespaces
 define('TEST_NAMESPACE', 100);
 $wgExtraNamespaces[TEST_NAMESPACE] = 'Testnamespace';
 
-#restrict "read" permission to logged in users
+# restrict "read" permission to logged in users
 $wgNamespacePermissionLockdown[TEST_NAMESPACE]['read'] = array('user');
 
-#prevent inclusion of pages from that namespace
+# prevent inclusion of pages from that namespace
 $wgNonincludableNamespaces[] = TEST_NAMESPACE;
+
 
 /**
  * --- SMW SPARQL configuration ---
  * Use Fuseki store
  */
-
 // Start the DB: fuseki-server.bat --update --port=3030 --loc='/var/www/public/db' /db
-
 $smwgDefaultStore = 'SMWSparqlStore';
 $smwgSparqlDatabaseConnector = 'fuseki';
 $smwgSparqlQueryEndpoint = 'http://localhost:3030/db/query';
 $smwgSparqlUpdateEndpoint = 'http://localhost:3030/db/update';
 $smwgSparqlDataEndpoint = '';
 
+
 /**
  * --- LinkedWiki configuration ---
  */
 $wgLinkedWikiConfigDefaultEndpoint = "http://localhost:3030/db/query";
 
+
+/**
+ * --- SPARQLProxy configuration
+ */
+wfLoadExtension( 'SPARQLProxy' );
+// Set the supported datastore endpoints
+$wgSPARQLProxySparqlEndpoints = [
+	[
+		'name'	=> 'db',
+		'query-url' => 'localhost:3030/db/query',
+		'update-url' => 'localhost:3030/db/update'
+	]
+];
+
+
+/**
+ * --- Mediawiki root ---
+ */
 enableSemantics( '192.168.33.10/mediawiki-1.26.2/' );
+
+
+/**
+ * --- Debuggen ---
+ */
+error_reporting( -1 );
+ini_set( 'display_errors', 1 );
+$wgShowExceptionDetails = true;
 
 
 

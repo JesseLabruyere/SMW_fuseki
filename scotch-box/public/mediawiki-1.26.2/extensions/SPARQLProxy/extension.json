@@ -1,70 +1,58 @@
 {
-	"name": "SpamBlacklist",
+	"name": "SPARQLProxy",
+	"version": "0.1.0",
 	"author": [
-		"Tim Starling",
-		"John Du Hart",
-		"Daniel Kinzler"
+		"Jesse Labruyere"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:SpamBlacklist",
-	"descriptionmsg": "spam-blacklist-desc",
-	"type": "antispam",
-	"callback": "SpamBlacklistHooks::registerExtension",
-	"GroupPermissions": {
-		"sysop": {
-			"spamblacklistlog": true
-		}
+	"url": "https://github.com/...",
+	"descriptionmsg": "sparqlproxy-desc",
+	"license-name": "GPL v2",
+	"type": "8",
+	"AutoloadClasses": {
+		"SPARQLProxyHooks": "SPARQLProxy.hooks.php",
+		"SpecialHelloWorld": "specials/SpecialHelloWorld.php",
+		"SpecialSPARQLQuery" : "specials/SpecialSPARQLQuery.php",
+		"SpecialSPARQLUpdate" : "specials/SpecialSPARQLUpdate.php"
 	},
-	"AvailableRights": [
-		"spamblacklistlog"
-	],
-	"LogTypes": [
-		"spamblacklist"
-	],
-	"LogRestrictions": {
-		"spamblacklist": "spamblacklistlog"
+	"config": {
+		"SPARQLProxyEnableFoo": true
 	},
-	"LogActionsHandlers": {
-		"spamblacklist/*": "LogFormatter"
+	"ExtensionMessagesFiles": {
+		"SPARQLProxyAlias": "SPARQLProxy.i18n.alias.php"
 	},
-	"APIModules": {
-		"spamblacklist": "ApiSpamBlacklist"
+	"Hooks": {
+		
+		"ParserFirstCallInit": [
+			"SPARQLProxyHooks::onParserFirstCallInit"
+		]
 	},
 	"MessagesDirs": {
-		"SpamBlackList": [
+		"SPARQLProxy": [
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"ApiSpamBlacklist": "api/ApiSpamBlacklist.php",
-		"BaseBlacklist": "BaseBlacklist.php",
-		"EmailBlacklist": "EmailBlacklist.php",
-		"SpamBlacklistHooks": "SpamBlacklistHooks.php",
-		"SpamBlacklist": "SpamBlacklist_body.php",
-		"SpamRegexBatch": "SpamRegexBatch.php"
+	"ResourceModules": {
+		"ext.sparqlProxy.foo": {
+			"scripts": [
+				"modules/ext.sparqlProxy.js",
+				"modules/ext.sparqlProxy.foo.js"
+			],
+			"styles": [
+				"modules/ext.sparqlProxy.foo.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
 	},
-	"Hooks": {
-		"EditFilterMergedContent": [
-			"SpamBlacklistHooks::filterMergedContent"
-		],
-		"APIEditBeforeSave": [
-			"SpamBlacklistHooks::filterAPIEditBeforeSave"
-		],
-		"EditFilter": [
-			"SpamBlacklistHooks::validate"
-		],
-		"PageContentSaveComplete": [
-			"SpamBlacklistHooks::pageSaveContent"
-		],
-		"UserCanSendEmail": [
-			"SpamBlacklistHooks::userCanSendEmail"
-		],
-		"AbortNewAccount": [
-			"SpamBlacklistHooks::abortNewAccount"
-		]
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SPARQLProxy"
 	},
-	"config": {
-		"@doc": "BlacklistSettings are set in SpamBlacklistHooks.php",
-		"LogSpamBlacklistHits": false
+	"wgSPARQLProxySparqlEndpoints": [],
+	"SpecialPages": {
+		"HelloWorld": "SpecialHelloWorld",
+		"sparql-query": "SpecialSPARQLQuery",
+		"sparql-update": "SpecialSPARQLUpdate"
 	},
 	"manifest_version": 1
 }

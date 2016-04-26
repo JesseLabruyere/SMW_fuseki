@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"sparqlproxy-desc": "Бұл мысал кеңейтілім",
+	"sparqlproxy-i18n-welcome": "SPARQLProxy кеңейтілімінің жерсіндіру файлына қош келдіңіз.",
+	"sparqlproxy-helloworld": "Сәлем, әлем!",
+	"sparqlproxy-helloworld-intro": "SPARQLProxy кеңейтілімінің «Hello world» арнайы бетіне қош келдіңіз.",
+	"helloworld": "Сәлем, әлем!"
+}

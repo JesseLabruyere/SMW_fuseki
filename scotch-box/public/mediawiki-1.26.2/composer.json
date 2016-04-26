@@ -37,7 +37,8 @@
 		"phpunit/php-invoker": "^1.1",
 		"mediawiki/semantic-result-formats": "^2.3",
 		"mediawiki/semantic-forms": "^3.5",
-		"mediawiki/graph-viz": "^1.6"
+		"mediawiki/graph-viz": "^1.6",
+		"guzzlehttp/guzzle": "~6"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.9",

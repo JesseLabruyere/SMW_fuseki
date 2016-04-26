@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Woytecr"
+		]
+	},
+	"sparqlproxy-desc": "To jest rozszerzenie przykładowe",
+	"sparqlproxy-i18n-welcome": "Witamy w lokalizacji pliku rozszerzenia szablonowego SPARQLProxy.",
+	"sparqlproxy-helloworld": "Witaj świecie!",
+	"helloworld": "WitajŚwiecie"
+}

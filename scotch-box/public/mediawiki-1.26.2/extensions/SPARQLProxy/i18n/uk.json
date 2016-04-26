@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base",
+			"Ата"
+		]
+	},
+	"sparqlproxy-desc": "Це приклад розширення",
+	"sparqlproxy-i18n-welcome": "Ласкаво просимо до файлу локалізації  розширення SPARQLProxy extension.",
+	"sparqlproxy-helloworld": "Hello world!",
+	"sparqlproxy-helloworld-intro": "Ласкаво просимо на спеціальну сторінку «Hello world» розширення SPARQLProxy.",
+	"helloworld": "Hello world"
+}

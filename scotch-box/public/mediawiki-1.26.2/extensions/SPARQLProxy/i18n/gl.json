@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño",
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"sparqlproxy-desc": "Esta é unha extensión de exemplo",
+	"sparqlproxy-i18n-welcome": "Dámoslle a benvida ao ficheiro de localización da extensión SPARQLProxy.",
+	"sparqlproxy-helloworld": "Ola mundo!",
+	"sparqlproxy-helloworld-intro": "Benvido á páxina especial \"Ola mundo\" da extensión SPARQLProxy.",
+	"helloworld": "Ola mundo"
+}

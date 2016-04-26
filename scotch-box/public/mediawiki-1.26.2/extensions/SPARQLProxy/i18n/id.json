@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Farras"
+		]
+	},
+	"sparqlproxy-desc": "Ini adalah contoh ekstensi",
+	"sparqlproxy-i18n-welcome": "Selamat datang di berkas lokalisasi ekstensi SPARQLProxy."
+}

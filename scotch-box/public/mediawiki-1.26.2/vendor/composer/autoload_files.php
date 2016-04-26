@@ -15,7 +15,10 @@ return array(
     $vendorDir . '/mediawiki/parser-hooks/ParserHooks.php',
     $vendorDir . '/mediawiki/at-ease/src/Functions.php',
     $baseDir . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
+    $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
+    $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
     $baseDir . '/extensions/SemanticResultFormats/SemanticResultFormats.php',
     $baseDir . '/extensions/SemanticForms/SemanticForms.php',
     $baseDir . '/extensions/GraphViz/GraphViz.php',
+    $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
 );

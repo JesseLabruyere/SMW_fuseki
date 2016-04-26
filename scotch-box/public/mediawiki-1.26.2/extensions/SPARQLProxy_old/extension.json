@@ -1,0 +1,69 @@
+{
+	"name": "SPARQLProxy",
+	"author": [
+		"Jesse Labruyere"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SPARQLProxy",
+	"descriptionmsg": "SPARQL-Proxy-desc",
+	"type": "proxy",
+	"callback": "SPARQLProxyHooks::registerExtension",
+	"GroupPermissions": {
+		"sysop": {
+			"SPARQLProxylog": true
+		}
+	},
+/*	"AvailableRights": [
+		"spamblacklistlog"
+	],
+	"LogTypes": [
+		"spamblacklist"
+	],
+	"LogRestrictions": {
+		"spamblacklist": "spamblacklistlog"
+	},
+	"LogActionsHandlers": {
+		"spamblacklist*//*": "LogFormatter"
+	},
+	"APIModules": {
+		"spamblacklist": "ApiSpamBlacklist"
+	},*/
+	"MessagesDirs": {
+		"SPARQLProxy": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		/*"ApiSpamBlacklist": "api/ApiSpamBlacklist.php",
+		"BaseBlacklist": "BaseBlacklist.php",
+		"EmailBlacklist": "EmailBlacklist.php",*/
+		"SPARQLProxyHooks": "SPARQLProxyHooks.php",
+		"SPARQLProxy": "SPARQLProxy_body.php"/*,
+		"SpamRegexBatch": "SpamRegexBatch.php"*/
+	},
+	"Hooks": {
+		// put own hooks here
+/*		"EditFilterMergedContent": [
+			"SpamBlacklistHooks::filterMergedContent"
+		],
+		"APIEditBeforeSave": [
+			"SpamBlacklistHooks::filterAPIEditBeforeSave"
+		],
+		"EditFilter": [
+			"SpamBlacklistHooks::validate"
+		],
+		"PageContentSaveComplete": [
+			"SpamBlacklistHooks::pageSaveContent"
+		],
+		"UserCanSendEmail": [
+			"SpamBlacklistHooks::userCanSendEmail"
+		],
+		"AbortNewAccount": [
+			"SpamBlacklistHooks::abortNewAccount"
+		]*/
+	},
+	"config": {
+		"@doc": "SPARQLProxy Settings are set in SPARLProxyHooks.php",
+		"LogSPARQLProxyHits": false
+	},
+	"manifest_version": 1
+}

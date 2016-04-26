@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"LittleGun",
+			"Rockyfelle"
+		]
+	},
+	"sparqlproxy-desc": "Detta är ett exempel-tillägg",
+	"sparqlproxy-i18n-welcome": "Välkommen till sparqlproxy-tilläggets lokaliseringsfil.",
+	"sparqlproxy-helloworld": "Hello world!",
+	"helloworld": "Hej världen"
+}

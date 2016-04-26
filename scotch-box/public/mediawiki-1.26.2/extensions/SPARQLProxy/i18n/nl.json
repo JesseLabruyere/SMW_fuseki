@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"AvatarTeam",
+			"SPQRobin"
+		]
+	},
+	"sparqlproxy-desc": "Dit is een voorbeeld van de uitbreiding",
+	"sparqlproxy-i18n-welcome": "Welkom bij het lokalisatiebestand van de sparqlproxy-uitbreiding.",
+	"helloworld": "HelloWorld"
+}

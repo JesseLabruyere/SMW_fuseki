@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"sparqlproxy-desc": "Isto es un extension de exemplo",
+	"sparqlproxy-i18n-welcome": "Benvenite al file de localisation del extension \"SPARQLProxy\" (modello).",
+	"helloworld": "HalloMundo"
+}

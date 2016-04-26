@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Hudafu",
+			"Liuxinyu970226"
+		]
+	},
+	"sparqlproxy-desc": "这是一个示例扩展程序",
+	"sparqlproxy-i18n-welcome": "欢迎来到SPARQLProxy扩展程序的本地化文件。",
+	"sparqlproxy-helloworld": "您好世界！",
+	"sparqlproxy-helloworld-intro": "欢迎来到SPARQLProxy扩展的“您好世界”特殊页面。",
+	"helloworld": "您好世界"
+}

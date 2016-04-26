@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"sparqlproxy-desc": "Dëst ass e Beispill vun enger Erweiderung",
+	"sparqlproxy-i18n-welcome": "Wëllkomm beim Lokalisatiounsfichier vun der SPARQLProxy Erweiderung",
+	"sparqlproxy-helloworld": "Hallo Welt!",
+	"helloworld": "HelloWorld"
+}

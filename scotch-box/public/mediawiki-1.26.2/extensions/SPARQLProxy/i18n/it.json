@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Alexmar983"
+		]
+	},
+	"sparqlproxy-desc": "Questa è un'estensione di esempio",
+	"sparqlproxy-i18n-welcome": "Benvenuti al file di localizzazione dell'estensione SPARQLProxy.",
+	"sparqlproxy-helloworld": "Salve mondo!",
+	"sparqlproxy-helloworld-intro": "Benvenuto alla pagina speciale \"Salve mondo\" dell'estensione SPARQLProxy.",
+	"helloworld": "Salve mondo"
+}

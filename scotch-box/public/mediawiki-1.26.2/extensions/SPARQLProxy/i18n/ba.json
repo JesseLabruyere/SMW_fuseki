@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sagan",
+			"Янмурза Баки"
+		]
+	},
+	"sparqlproxy-desc": "Был ҡушымта өлгөһө",
+	"sparqlproxy-i18n-welcome": "SPARQLProxy киңәйтеүе локализация файлына рөхсәт итегеҙ.",
+	"sparqlproxy-helloworld": "Һаумы, донъя!",
+	"sparqlproxy-helloworld-intro": "SPARQLProxy ҡушымтаһының «Һаумы, донъя!» махсус битенә рәхим итегеҙ!",
+	"helloworld": "Һаумы, донъя!"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"sparqlproxy-desc": "Dat heh es e eijfach Beischpell för e Zohsazprojramm.",
+	"sparqlproxy-i18n-welcome": "Wellkumme bei de Övversäzonge för dat Beischpell för e Zohsazprojramm heh.",
+	"sparqlproxy-helloworld": "Hey Wält!",
+	"sparqlproxy-helloworld-intro": "Wellkumme op dä met „Hey Wält!“ vum Zohsazprojramm „<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„E janz jewöhnlesch Beijschpell“\">SPARQLProxy</i>“.",
+	"helloworld": "HalloWält"
+}

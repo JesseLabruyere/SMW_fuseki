@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hylle"
+		]
+	},
+	"sparqlproxy-desc": "Dette er et eksempel på en udvidelse",
+	"sparqlproxy-i18n-welcome": "Velkommen til lokaliseringsdelen af SPARQLProxy udvidelsen."
+}

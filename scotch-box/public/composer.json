@@ -1,8 +1,0 @@
-{
-    "require": {
-        "mediawiki/semantic-media-wiki": "^2.3",
-        "mediawiki/semantic-result-formats": "^2.3",
-        "mediawiki/graph-viz": "^1.6",
-        "mediawiki/semantic-forms": "^3.5"
-    }
-}

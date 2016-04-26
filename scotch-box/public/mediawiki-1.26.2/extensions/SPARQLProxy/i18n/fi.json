@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nedergard",
+			"Nike",
+			"VezonThunder"
+		]
+	},
+	"sparqlproxy-desc": "Tämä on esimerkkilaajennus",
+	"sparqlproxy-i18n-welcome": "Tervetuloa sparqlproxy-laajennuksen lokalisointitiedostoon."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCamer",
+			"Okras"
+		]
+	},
+	"sparqlproxy-desc": "Это пример расширения",
+	"sparqlproxy-i18n-welcome": "Добро пожаловать в файл локализации расширения SPARQLProxy.",
+	"sparqlproxy-helloworld": "Привет, мир!",
+	"sparqlproxy-helloworld-intro": "Добро пожаловать на спецстраницу «Привет, мир!» расширения SPARQLProxy.",
+	"helloworld": "Привет, мир"
+}

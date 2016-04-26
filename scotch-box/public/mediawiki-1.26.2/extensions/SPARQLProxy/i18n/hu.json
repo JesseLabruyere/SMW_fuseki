@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"sparqlproxy-desc": "Ez egy példa kiterjesztés",
+	"sparqlproxy-i18n-welcome": "Üdvözlünk a SPARQLProxy kiterjesztés lokalizációs fájljában."
+}

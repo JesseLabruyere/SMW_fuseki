@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"sparqlproxy-desc": "Ims page(s) that allow you to remotely query a local SPARQL endpoint",
+	"sparqlproxy-i18n-welcome": "Welcome to the localization file of the SPARQLProxy extension.",
+	"sparqlproxy-helloworld": "Hello world!",
+	"sparqlproxy-helloworld-intro": "Welcome to the \"Hello world\" special page of the SPARQLProxy extension.",
+	"helloworld": "Hello world",
+	"sparqlproxy-query": "SPARQL Query",
+	"sparqlproxy-query-intro": "Send here your SPARQL query requests. <br/> <br/> <b>Example call:</b> <br/> {{canonicalurl:{{FULLPAGENAMEE}}}}?query=SELECT+%3Fs+%3Fp+%3Fo%0D%0AWHERE+{%0D%0A+%3Fs+%3Fp+%3Fo%0D%0A}&output=text&stylesheet=%2Fxml-to-html.xsl <br/> <br> <b>Required URL parameters:</b> <br/> Query: <i>the SPARQL query</i> <br/> <br/> <b>Optional URL parameters:</b> <br/> Output: <i>text, json, xml, csv, tsv</i> <br/> Stylesheet: <i>/xml-to-html, /xml-to-html-links, /xml-to-html-plain</i> ",
+	"sparqlproxy-update-intro": "Send here your SPARQL update requests.",
+	"sparqlproxy-update": "SPARQL Update"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"sparqlproxy-desc": "Esta ye una estensión d'exemplu",
+	"sparqlproxy-i18n-welcome": "Bienveníu al ficheru de llocalización de la estensión SPARQLProxy.",
+	"sparqlproxy-helloworld": "¡Bones, mundu!",
+	"sparqlproxy-helloworld-intro": "Bienllegaos a la páxina especial «Bones, mundu» de la estensión SPARQLProxy.",
+	"helloworld": "HolaMundu"
+}

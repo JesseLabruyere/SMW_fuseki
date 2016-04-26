@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"sparqlproxy-desc": "Veranschaulicht beispielhaft eine einfache MediaWiki-Erweiterung",
+	"sparqlproxy-i18n-welcome": "Willkommen bei der Lokalisierungs- und Internationalisierungsdatei der Programmerweiterung SPARQLProxy.",
+	"sparqlproxy-helloworld": "Hallo Welt!",
+	"sparqlproxy-helloworld-intro": "Willkommen auf der Spezialseite „Hallo Welt“ der Erweiterung „SPARQLProxy“.",
+	"helloworld": "Hallo Welt"
+}

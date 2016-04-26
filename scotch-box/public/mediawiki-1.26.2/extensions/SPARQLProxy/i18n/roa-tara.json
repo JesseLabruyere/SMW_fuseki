@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"sparqlproxy-desc": "Queste jè 'n'estenzione de esembie",
+	"sparqlproxy-i18n-welcome": "Bovègne jndr'à 'u file de localizzazzione de l'estenzione SPARQLProxy.",
+	"sparqlproxy-helloworld": "Cià munne!",
+	"sparqlproxy-helloworld-intro": "Bovègne jndr'à pàgena speciale \"Cià munne\" pe l'estenzione SPARQLProxy.",
+	"helloworld": "Cià munne"
+}
