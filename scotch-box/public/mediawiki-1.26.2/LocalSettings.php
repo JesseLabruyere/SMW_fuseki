@@ -119,6 +119,19 @@ $wgDiff3 = "/usr/bin/diff3";
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['*']['edit'] = false;
 
+
+/* Permissions for SPARQLProxy */
+
+// use the basic user rights
+$wgGroupPermissions['SPARQLProxyUser'] = $wgGroupPermissions['user'];
+$wgGroupPermissions['SPARQLProxyUser']['sparql-query'] = true;
+$wgGroupPermissions['SPARQLProxyUser']['sparql-update'] = false;
+
+$wgGroupPermissions['SPARQLProxyAdmin'] = $wgGroupPermissions['user'];
+$wgGroupPermissions['SPARQLProxyAdmin']['sparql-query'] = true;
+$wgGroupPermissions['SPARQLProxyAdmin']['sparql-update'] = true;
+
+
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "vector";

@@ -11,11 +11,11 @@
 	"AutoloadClasses": {
 		"SPARQLProxyHooks": "SPARQLProxy.hooks.php",
 		"SpecialHelloWorld": "specials/SpecialHelloWorld.php",
-		"SpecialSPARQLQuery" : "specials/SpecialSPARQLQuery.php",
-		"SpecialSPARQLUpdate" : "specials/SpecialSPARQLUpdate.php"
+		"SpecialSPARQLEndpoints" : "specials/SpecialSPARQLEndpoints.php"
 	},
 	"config": {
-		"SPARQLProxyEnableFoo": true
+		"SPARQLProxyEnableFoo": true,
+		"SPARQLProxySparqlEndpoints": []
 	},
 	"ExtensionMessagesFiles": {
 		"SPARQLProxyAlias": "SPARQLProxy.i18n.alias.php"
@@ -48,11 +48,9 @@
 		"localBasePath": "",
 		"remoteExtPath": "SPARQLProxy"
 	},
-	"wgSPARQLProxySparqlEndpoints": [],
 	"SpecialPages": {
 		"HelloWorld": "SpecialHelloWorld",
-		"sparql-query": "SpecialSPARQLQuery",
-		"sparql-update": "SpecialSPARQLUpdate"
+		"sparql-endpoints": "SpecialSPARQLEndpoints"
 	},
 	"manifest_version": 1
 }
