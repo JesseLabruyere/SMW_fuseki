@@ -49,7 +49,6 @@
 		"remoteExtPath": "SPARQLProxy"
 	},
 	"SpecialPages": {
-		"HelloWorld": "SpecialHelloWorld",
 		"sparql-endpoints": "SpecialSPARQLEndpoints"
 	},
 	"manifest_version": 1
