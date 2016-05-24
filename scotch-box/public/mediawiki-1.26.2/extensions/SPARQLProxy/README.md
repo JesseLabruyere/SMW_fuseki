@@ -4,7 +4,7 @@ Ims page(s) that allow you to remotely query a local SPARQL endpoint
 
 ## Features
 
- * [Special page](https://www.mediawiki.org/wiki/Manual:Special_pages) (specials/SpecialHelloWorld.php)
+ * [Special page](https://www.mediawiki.org/wiki/Manual:Special_pages) (specials/Sparql-endpoint.php)
  * [Parser hook](https://www.mediawiki.org/wiki/Manual:Parser_functions) (SPARQLProxy/SPARQLProxy.hooks.php)
  * [Gerrit integration](https://www.mediawiki.org/wiki/Gerrit) (.gitreview)
 
