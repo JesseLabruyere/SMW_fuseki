@@ -1,6 +1,6 @@
 # SPARQLProxy
 
-Ims page(s) that allow you to remotely query a local SPARQL endpoint
+Contains page(s) that allow you to remotely query a local SPARQL endpoint
 
 ## Features
 
